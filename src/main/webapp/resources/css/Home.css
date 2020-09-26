@@ -1,0 +1,159 @@
+  html,body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:black;
+	}
+	
+	#base{
+	
+	
+	margin-top:25px;
+	}
+.blue-square {
+  background: linear-gradient(to right,  #fc4a1a, #ee0979);
+/*   #003d66;
+ */  
+  width: 80px;
+  height: 30px;
+  padding-top: 5px;
+  display: inline-block;
+  text-align: center;
+  display: inline-block
+}
+.blue-square a{
+    color: white;
+}
+.blue-square a:hover{
+	color:white
+}
+header {
+    width: 100%;
+    height: 70px;
+    background: #232323;
+}
+
+.hidden {
+  display: none;
+}
+header h1 a {
+	
+    letter-spacing: 3px;
+    position:relative;
+    right: -80px;
+    top: 15px;
+    background: -webkit-linear-gradient(#fc4a1a, #ee0979);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;   
+}
+.headerele a{
+ color: white;
+  position:relative;
+  right: -260px;
+  top: -25px;
+  text-decoration: none;
+}
+.headerele a:hover{
+color: white;
+	text-decoration: none;
+}
+.headerele2 a{
+ color: white;
+  position:relative;
+  right: -350px;
+  top: -51px;
+  text-decoration: none;
+}
+.headerele2 a:hover{
+color: white;
+	text-decoration: none;
+}
+.headerele3 a{
+ color: white;
+  position:relative;
+  right: -465px;
+  top: -78px;
+  text-decoration: none;
+}
+.headerele3 a:hover{
+color: white;
+	text-decoration: none;
+}
+.headerele4 a{
+ color: white;
+  position:relative;
+  right: -575px;
+  top: -103px;
+  text-decoration: none;
+}
+.headerele4 a:hover{
+color: white;
+	text-decoration: none;
+}
+header .nav .navlink a{
+	color: white;
+	position:relative;
+    top:-111px;
+    right: -1150px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+.register a{
+	color: #fc4a1a;
+
+}
+.register a:hover{
+	color: #fc4a1a;
+}
+ .carousel-cell {
+    width: 33%;
+    padding: 8px;
+    border-radius: 25px;
+    }
+
+    /* cell number */
+    .carousel-cell: before {
+      display: block;
+    }
+    .image{
+       border-radius: 20px;
+       border: 1px solid white;
+       height:225px;
+       width: 400px;
+    }
+    img{
+        width: 60%;
+        min-height: 175px;
+        border-radius: 20px;
+      }
+      .main{
+        padding: 40px 0;
+      }
+      .col-md-3{
+        margin-bottom: 40px;
+      }
+      .album-poster{
+        position: relative;
+        display: block;
+        border-radius: 7px;
+        overflow: hidden;
+        transition: all ease 0.4s;
+      }
+      
+      h4{
+        font-size: 24px;
+        margin-bottom: 24px;
+        /* border-bottom: 4px solid #e6e6e6; */
+        padding-bottom: 15px;
+        text-transform: capitalize;
+        color:white;
+       /*  #909090; */
+      }
+      
+      h5{
+        font-size: 16px;
+        text-transform: uppercase;
+        margin-top: 5px;
+        font-weight: 700;
+        color:#909090;
+      }

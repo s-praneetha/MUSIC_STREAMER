@@ -1,0 +1,204 @@
+body, html {
+	background-color:black;
+  height: 50%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    width: 100%;
+    height: 70px;
+    background: #232323;
+    position: relative;
+    top: -180px;
+}
+
+.hidden {
+  display: none;
+}
+header h1 a {
+	font-size: 40px;
+    letter-spacing: 3px;
+    position:relative;
+    right: -80px;
+    top: 15px;
+    background: -webkit-linear-gradient(#fc4a1a, #ee0979);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;   
+}
+.headerele a{
+  font-size: 19px;
+  color: white;
+  position:relative;
+  right: -260px;
+  top: -22px;
+  text-decoration: none;
+}
+.headerele a:hover{
+color: white;
+	text-decoration: none;
+}
+.headerele2 a{
+font-size: 19px;
+ color: white;
+  position:relative;
+  right: -350px;
+  top: -49px;
+  text-decoration: none;
+}
+.headerele2 a:hover{
+color: white;
+	text-decoration: none;
+}
+.headerele3 a{
+font-size: 19px;
+ color: white;
+  position:relative;
+  right: -465px;
+  top: -76px;
+  text-decoration: none;
+}
+.headerele3 a:hover{
+color: white;
+	text-decoration: none;
+}
+.headerele4 a{
+font-size: 19px;
+ color: white;
+  position:relative;
+  right: -575px;
+  top: -103px;
+  text-decoration: none;
+}
+.headerele4 a:hover{
+color: white;
+	text-decoration: none;
+}
+.columnfav{
+margin-left: 870px;
+margin-top : -70px;
+position: relative;
+height:100px;
+
+}
+.trackpageimage{
+border-radius: 20px;
+}
+.columndata h2,h4{
+	color: white;
+}
+.columnimage{
+position: absolute;
+margin-top : -100px;
+}
+.columndata{
+position: absolute;
+margin-left: 190px;
+margin-top : -120px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-fp8bj8cvtm9qcds69tn7tsm4o4-20170411030809.Medi.jpeg");
+  
+  /* Add the blur effect */
+  
+  -webkit-filter: blur(170px);
+  
+  /* Full height */
+  height: 90%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+table {
+  font-family: arial, sans-serif;
+   width: 60%;
+   margin-top: 120px;
+}
+td{
+color:white;
+ text-align: left;
+  padding: 6px;
+  font-size: 14px;
+}
+ th {
+  /*border: 1px solid #dddddd;*/
+  color: #A8A8A8;
+  text-align: left;
+  font-size: 15px;
+  padding-bottom: 15px;
+}
+table.center {
+border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+tr:hover 
+{background-color:#282828;}
+table  td 
+{ border-bottom: 1px solid grey; }
+
+i {
+  cursor:pointer;
+  padding:10px 12px 8px;
+  background:#000000;
+  border-radius:50%;
+  display:inline-block;
+  margin:0 0 15px;
+  color:#aaa;
+  transition:.2s;
+}
+
+i:hover {
+  color:#666;
+}
+
+i:before {
+  font-family:fontawesome;
+  content:'\f004';
+  font-style:normal;
+}
+
+.columnfav span {
+  position: absolute;
+  bottom:70px;
+  left:0;
+  right:0;
+  visibility: hidden;
+  transition:.6s;
+  z-index:-2;
+  font-size:2px;
+  color:transparent;
+  font-weight:400;
+}
+
+i.press {
+  animation: size .4s;
+  color:#e23b3b;
+}
+
+.columnfav span.press {
+  bottom:120px;
+  font-size:14px;
+  visibility:visible;
+  animation: fade 4s;
+}
+
+@keyframes fade {
+  0% {color:#transparent;}
+  50% {color:#e23b3b;}
+  100% {color:#transparent;}
+}
+
+@keyframes size {
+  0% {padding:10px 12px 8px;}
+  50% {padding:14px 16px 12px;  
+    margin-top:-4px;}
+  100% {padding:10px 12px 8px;}
+}
